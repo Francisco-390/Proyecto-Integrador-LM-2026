@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Mi garaje personal y datos sobre los coches-->
+
+<catalogo propietario="Francisco MArtinez Berzal">
+<coche id="c401">
+  <modelo>Porsche 911 Carrera</modelo>
+  <combustible>Gasolina</combustible>
+  <potencia unidad="CV">385.0</potencia>
+  <velocidad_max unidad="km/h">293.0</velocidad_max>
+  <precio moneda="EUR">450568.45</precio>
+  <destacado/>
+</coche>
+
+</catalogo>
