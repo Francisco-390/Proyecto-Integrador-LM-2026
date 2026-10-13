@@ -12,8 +12,7 @@
 * **Tema elegido:** Coches Clásicos o Deportivos.
 * **¿Por qué este tema?:** He elegido este tema porque me gustan los coches, ademas de tener suficiente infromacion para rellenar paginas y me resulta un tema facil para esta tarea.
 * **Palabra del día:** Meta.
-* **Qué he hecho en esta entrega:** 1º Entrega: he empezado con la tarea empezando el XML, viendo de que tema lo iba a hacer. Despues de averiguarlo emepece poniendo un catalogo inicial. Despues hice el HTML viendo que tenia que poner, pero pare ya que tuve un error en el repositorio porque subi otro XML que no tenia nada que ver. Ademas de eso tenia duda de como hacer el HTML, y tuve que ver como hacerlo buscando informacion.
-Despues de eso arregle el repositorio y lo subi.
+* **Qué he hecho en esta entrega:** 2º Entrega: he terminado el archivo XML y añadido la carpeta img, para las imagenes de los coches.
 
 ---
 

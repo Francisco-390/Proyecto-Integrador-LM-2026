@@ -1,14 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Mi garaje personal y datos sobre los coches-->
+<!--Catalogo de coches clasicos y deportivos con la marca, modelo, año, potencia y aceleración de cada uno-->
 
 <catalogo propietario="Francisco MArtinez Berzal">
-<coche id="c401">
-  <modelo>Porsche 911 Carrera</modelo>
-  <combustible>Gasolina</combustible>
-  <potencia unidad="CV">385.0</potencia>
-  <velocidad_max unidad="km/h">293.0</velocidad_max>
-  <precio moneda="EUR">450568.45</precio>
-  <destacado/>
-</coche>
 
+ <coche id="c401">
+    <nombre>Porsche 911 Carrera</nombre>
+    <año>2019</año>
+    <potencia unidad="CV">385</potencia>
+    <aceleracion unidad="s">4.2</aceleracion>
+    <velocidad_max unidad="km/h">293</velocidad_max>
+    <destacado/>
+  </coche>
+  <coche id="c402">
+    <nombre>Ferrari F40</nombre>
+    <año>1987</año>
+    <potencia unidad="CV">478</potencia>
+    <aceleracion unidad="s">4.7</aceleracion>
+    <velocidad_max unidad="km/h">324</velocidad_max>
+  </coche>
+  <coche id="c403">
+    <nombre>Jaguar E-Type</nombre>
+    <año>1961</año>
+    <potencia unidad="CV">265</potencia>
+    <aceleracion unidad="s">6.9</aceleracion>
+    <velocidad_max unidad="km/h">241</velocidad_max>
+  </coche>
+  <coche id="c404">
+    <nombre>Lamborghini Countach</nombre>
+    <año>1974</año>
+    <potencia unidad="CV">375</potencia>
+    <aceleracion unidad="s">5.6</aceleracion>
+    <velocidad_max unidad="km/h">300</velocidad_max>
+  </coche>
 </catalogo>
