@@ -12,7 +12,7 @@
 * **Tema elegido:** Coches Clásicos o Deportivos.
 * **¿Por qué este tema?:** He elegido este tema porque me gustan los coches, ademas de tener suficiente infromacion para rellenar paginas y me resulta un tema facil para esta tarea.
 * **Palabra del día:** Meta.
-* **Qué he hecho en esta entrega:** 6º Entrega: imagenes opcionales para decorar y retoques
+* **Qué he hecho en esta entrega:** 6º Entrega: Finalizacion del trabajo, tras revisar todo.
 
 ---
 

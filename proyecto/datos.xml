@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--Catalogo de coches clasicos y deportivos con la marca, modelo, año, potencia y aceleración de cada uno-->
+<!--Catalogo de coches clásicos y deportivos con la marca, modelo, año, potencia y aceleración de cada uno-->
 
-<catalogo propietario="Francisco MArtinez Berzal">
+<catalogo propietario="Francisco Martinez Berzal">
 
  <coche id="c401">
     <nombre>Porsche 911 Carrera</nombre>
@@ -9,7 +9,7 @@
     <potencia unidad="CV">385</potencia>
     <aceleracion unidad="s">4.2</aceleracion>
     <velocidad_max unidad="km/h">293</velocidad_max>
-    <destacado/>
+        <Deportivo/>
   </coche>
   <coche id="c402">
     <nombre>Ferrari F40</nombre>
@@ -17,6 +17,7 @@
     <potencia unidad="CV">478</potencia>
     <aceleracion unidad="s">4.7</aceleracion>
     <velocidad_max unidad="km/h">324</velocidad_max>
+       <Clasico/>
   </coche>
   <coche id="c403">
     <nombre>Jaguar E-Type</nombre>
@@ -24,6 +25,7 @@
     <potencia unidad="CV">265</potencia>
     <aceleracion unidad="s">6.9</aceleracion>
     <velocidad_max unidad="km/h">241</velocidad_max>
+       <Deportivo/>
   </coche>
   <coche id="c404">
     <nombre>Lamborghini Countach</nombre>
@@ -31,5 +33,6 @@
     <potencia unidad="CV">375</potencia>
     <aceleracion unidad="s">5.6</aceleracion>
     <velocidad_max unidad="km/h">300</velocidad_max>
+       <Clasico/>
   </coche>
 </catalogo>
