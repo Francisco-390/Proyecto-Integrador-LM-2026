@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--Catalogo de coches clásicos y deportivos con la marca, modelo, año, potencia y aceleración de cada uno-->
 
-<catalogo propietario="Francisco Martinez Berzal">
+<catalogo propietario="Francisco-390">
 
  <coche id="c401">
     <nombre>Porsche 911 Carrera</nombre>
