@@ -12,7 +12,12 @@
 
 * **Tema elegido:** Coches Clásicos o Deportivos.
 * **¿Por qué este tema?:** He elegido este tema porque me gustan los coches, ademas de tener suficiente infromacion para rellenar paginas y me resulta un tema facil para esta tarea.
-* **Palabra del día:** Meta.
-* **Qué he hecho en esta entrega:** He creado una página web sobre coches clásicos y deportivos, con una lista de cuatro modelos, una imagen de mi favorito, el Porsche 911 Carrera y enlaces a sus webs.
-También he guardado los datos de esos cuatro coches, con etiquetas propias, como año, potencia y aceleración, y he comprobado que no da errores.
-Todo lo he ido subiendo a GitHub con commits poco a poco, y los coches de la lista del HTML son los mismos que los del XML.
+* **Palabra del día:** Contexto.
+* **Qué he hecho en esta entrega:** 
+
+## 📌 UD3 · Estructura HTML
+
+Faltan metadatos completos en el <'head'>: Le faltan los elementos <'meta name="description"'>, <'meta name="keywords"'> y <'meta name="author"'> para la información de buscadores y autoría. Además, el atributo charset="UTF-8" debe ir como primer elemento dentro de <'head'> antes que el <'title'>. 
+Estructura por bloques agrupados (<'div'>) y etiquetas semánticas de bloque: El contenido del <'body'> tiene los elementos sueltos sin agrupar en bloques <'div'> comentados por secciones. 
+También le faltan elementos requeridos en esta unidad como el comentario <'!-- NAV: aquí irá el menú (UD4) --'>, el bloque de cita <'blockquote'>, la ficha con <'pre'> y separadores <'hr'> entre bloques temáticos.
+
