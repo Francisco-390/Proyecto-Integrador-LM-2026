@@ -31,4 +31,15 @@ También le faltan elementos requeridos en esta unidad como el comentario <'!-- 
 | `historia.html` | `Historia \| Coches clásicos y deportivos` | Historia de los cuatro coches por décadas, línea del tiempo y mi opinión en una cita. |
 | `porsche-911.html` | `Porsche 911 Carrera \| Coches clásicos y deportivos` | Mi coche favorito: por qué me gusta, ficha técnica y un poco de historia. |
 
+### Errores del validador W3C
+ 
+| Página | Errores que dio el validador | Cómo los corregí |
+|---|---|---|
+| `index.html` | Error en imagen por tener espacios y tambien errores por poner <'dev'> mas de los que tenia abiertos| Quitando espacios y quitando los <'dev'> |
+| `coches.html` | Error en la foto por poner espacios | Quitando espacios |
+| `historia.html` | Nada | Nada |
+| `porsche-911.html` | Nada | Nada |
 
+### Qué he hecho en esta unidad
+ 
+En esta unidad he pasado de una página básica a un sitio de cuatro páginas con estructura HTML completa: DOCTYPE, `html lang="es"` y un `head` con codificación, título, descripción, palabras clave y autor. En el `body` he organizado el contenido en bloques `div` comentados, con una jerarquía de títulos sin saltos, separadores `hr`, citas con `blockquote`, fichas con `pre` y entidades como `&copy;` o `&euro;`. He ido haciendo un commit por cada mejora o página nueva para que el historial cuente el proceso. Todavía no hay enlaces entre páginas porque el menú se añadirá en la UD4.
