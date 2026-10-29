@@ -27,4 +27,5 @@ También le faltan elementos requeridos en esta unidad como el comentario <'!-- 
 | Fichero | title | Qué contiene |
 |---|---|---|
 | `index.html` | `Inicio \| Coches clásicos y deportivos` | Portada: presentación, lista de los cuatro coches, foto del Porsche 911, opinión, ficha de datos y enlaces oficiales. |
+| `coches.html` | `Catálogo \| Coches clásicos y deportivos` | Todos los elementos de `datos.xml`: un bloque por coche con año, potencia, aceleración, velocidad máxima y tipo, y un resumen en columnas. |
 
