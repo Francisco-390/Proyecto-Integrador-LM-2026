@@ -52,6 +52,41 @@
                 </p>
             </fieldset>
 
+            <!-- Bloque 2: la consulta -->
+            <fieldset>
+                <legend>Tu consulta</legend>
+                <p>¿Qué quieres enviarme?</p>
+                <p>
+                    <input type="radio" id="tipo-duda" name="tipo" value="duda" checked>
+                    <label for="tipo-duda">Una duda sobre un coche</label>
+                </p>
+                <p>
+                    <input type="radio" id="tipo-sugerencia" name="tipo" value="sugerencia">
+                    <label for="tipo-sugerencia">Una sugerencia de un coche nuevo</label>
+                </p>
+                <p>
+                    <input type="radio" id="tipo-comentario" name="tipo" value="comentario">
+                    <label for="tipo-comentario">Un comentario sobre la web</label>
+                </p>
+                <p>
+                    <label for="coche">Coche del que quieres hablar</label>
+                    <select id="coche" name="coche">
+                        <option value="porsche-911" selected>Porsche 911 Carrera</option>
+                        <option value="ferrari-f40">Ferrari F40</option>
+                        <option value="jaguar-e-type">Jaguar E-Type</option>
+                        <option value="lamborghini-countach">Lamborghini Countach</option>
+                        <option value="otro">Otro coche</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="mensaje">Mensaje</label>
+                </p>
+                <p>
+                    <textarea id="mensaje" name="mensaje" rows="5" cols="40" minlength="10" required
+                        placeholder="Escribe aquí tu mensaje"></textarea>
+                </p>
+            </fieldset>
+
             <!-- Botones de envío y borrado -->
             <p>
                 <input type="submit" value="Enviar">
