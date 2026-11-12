@@ -49,3 +49,10 @@ En esta unidad he pasado de una página básica a un sitio de cuatro páginas co
 * **Qué datos de tu tema vas a poner en la tabla (y en qué página):** Voy a poner en 'historia.html' una tabla con los hitos de cada coche: coche, año, qué ocurrió y país. Son datos reales de mi tema, como las fechas de presentación y de producción.
 
 * **Para qué servirá tu formulario (contacto, reserva, inscripción, encuesta…):** El formulario estará en 'contacto.html' y servirá para que los visitantes me envíen dudas sobre los coches o me sugieran un modelo nuevo para añadir al catálogo.
+
+
+### UD5 · Formulario de contacto
+ 
+* **¿Por qué `post` y no `get`?:** Uso `post` porque los datos personales (nombre, correo y teléfono) viajan ocultos y no aparecen en la URL, mientras que con `get` cualquiera podría verlos en la barra del navegador.
+
+* **URL que aparece al probar con `get`:** http://165.0.1.0:5500/proyecto/contacto.html?nombre=Francisco&correo=francisco%40gmail.com&tel=666333444&tipo=comentario&coche=otro&mensaje=La+p%C3%A1gina+es+una+locura%2C+adem%C3%A1s+est%C3%A1n+bien+elegidos+los+coches.&interes=historia&interes=datos-tecnicos&interes=fotos#
