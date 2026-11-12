@@ -108,6 +108,10 @@
         <!-- Tabla de datos: año, hito y país de cada coche del proyecto, ordenada por coche -->
         <table style="border: 1px solid #000000;">
             <caption>Hitos de los coches clásicos y deportivos</caption>
+            <colgroup>
+                <col>
+                <col span="3" style="background-color: #eeeeee;">
+            </colgroup>
             <thead>
                 <tr>
                     <th scope="col">Coche</th>
@@ -124,19 +128,23 @@
                     <td>Reino Unido</td>
                 </tr>
                 <tr>
-                    <th scope="row">Porsche 911</th>
+                    <th scope="row" rowspan="2">Porsche 911</th>
                     <td>1963</td>
                     <td>Presentación en el Salón de Frankfurt</td>
                     <td>Alemania</td>
                 </tr>
                 <tr>
-                    <th scope="row">Lamborghini Countach</th>
+                    <td>2019</td>
+                    <td>Versión de mi catálogo: 385 CV y 293 km/h</td>
+                    <td>Alemania</td>
+                </tr>
+                <tr>
+                    <th scope="row" rowspan="2">Lamborghini Countach</th>
                     <td>1971</td>
                     <td>Se enseña el prototipo</td>
                     <td>Italia</td>
                 </tr>
                 <tr>
-                    <th scope="row">Lamborghini Countach</th>
                     <td>1974</td>
                     <td>Empieza la producción</td>
                     <td>Italia</td>
@@ -148,6 +156,12 @@
                     <td>Italia</td>
                 </tr>
             </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="row">Resumen</th>
+                    <td colspan="3">6 hitos de 4 coches, entre 1961 y 2019.</td>
+                </tr>
+            </tfoot>
         </table>
     </div>
 
