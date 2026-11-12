@@ -42,7 +42,10 @@ También le faltan elementos requeridos en esta unidad como el comentario <'!-- 
 
 ### UD3 · Qué he hecho en esta unidad
  
-En esta unidad he pasado de una página básica a un sitio de cuatro páginas con estructura HTML completa: DOCTYPE, `html lang="es"` y un `head` con codificación, título, descripción, palabras clave y autor. En el `body` he organizado el contenido en bloques `div` comentados, con una jerarquía de títulos sin saltos, separadores `hr`, citas con `blockquote`, fichas con `pre` y entidades como `&copy;` o `&euro;`. He ido haciendo un commit por cada mejora o página nueva para que el historial cuente el proceso. Todavía no hay enlaces entre páginas porque el menú se añadirá en la UD4.
+En esta unidad he pasado de una página básica a un sitio de cuatro páginas con estructura HTML completa: DOCTYPE, `html lang="es"` y un `head` con codificación, título, descripción, palabras clave y autor. En el `body` he organizado el contenido en bloques `div` comentados, con una jerarquía de títulos sin saltos, separadores `hr`, citas con `blockquote`, fichas con `pre` y entidades como `&copy;` o `&euro;`. He ido haciendo un commit por cada mejora o página nueva para que el historial cuente el proceso. Todavía no hay enlaces entre páginas porque el menú se añadirá en la UD5.
 
 ## 📌 UD5 · Tablas y formularios
 
+* **Qué datos de tu tema vas a poner en la tabla (y en qué página):** Voy a poner en 'historia.html' una tabla con los hitos de cada coche: coche, año, qué ocurrió y país. Son datos reales de mi tema, como las fechas de presentación y de producción.
+
+* **Para qué servirá tu formulario (contacto, reserva, inscripción, encuesta…):** El formulario estará en 'contacto.html' y servirá para que los visitantes me envíen dudas sobre los coches o me sugieran un modelo nuevo para añadir al catálogo.
