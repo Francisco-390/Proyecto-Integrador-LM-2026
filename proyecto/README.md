@@ -56,3 +56,14 @@ En esta unidad he pasado de una página básica a un sitio de cuatro páginas co
 * **¿Por qué `post` y no `get`?:** Uso `post` porque los datos personales (nombre, correo y teléfono) viajan ocultos y no aparecen en la URL, mientras que con `get` cualquiera podría verlos en la barra del navegador.
 
 * **URL que aparece al probar con `get`:** http://165.0.1.0:5500/proyecto/contacto.html?nombre=Francisco&correo=francisco%40gmail.com&tel=666333444&tipo=comentario&coche=otro&mensaje=La+p%C3%A1gina+es+una+locura%2C+adem%C3%A1s+est%C3%A1n+bien+elegidos+los+coches.&interes=historia&interes=datos-tecnicos&interes=fotos#
+
+### UD5 · Errores del validador W3C
+ 
+| Página | Errores que dio el validador | Cómo los corregí |
+|---|---|---|
+| `historia.html` (tabla) | Nada | - |
+| `contacto.html` | Nada | - |
+ 
+### UD5 · Qué he hecho en esta unidad
+ 
+En esta unidad he añadido a mi web una tabla de datos y un formulario. En `historia.html` hay una tabla de hitos con `caption`, `thead`, `tbody`, `tfoot`, `colgroup`, cabeceras con `scope` y celdas combinadas con `rowspan` y `colspan`. En `contacto.html` he creado un formulario con `post`, tres `fieldset` con `legend`, controles con `name`, `id` y su `label`, y los ocho tipos de control pedidos. Por último he enlazado la página de contacto desde la portada, la he añadido al mapa del sitio y he validado las páginas con el validador del W3C, haciendo commits por cada parte.
