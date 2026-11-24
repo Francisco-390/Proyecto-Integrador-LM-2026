@@ -12,7 +12,7 @@
  
 * **Tema elegido:** Coches Clásicos o Deportivos.
 * **¿Por qué este tema?:** He elegido este tema porque me gustan los coches, ademas de tener suficiente infromacion para rellenar paginas y me resulta un tema facil para esta tarea.
-* **Palabra del día:** Día
+* **Palabra del día:** 
 
 ---
 
@@ -67,3 +67,39 @@ En esta unidad he pasado de una página básica a un sitio de cuatro páginas co
 ### UD5 · Qué he hecho en esta unidad
  
 En esta unidad he añadido a mi web una tabla de datos y un formulario. En `historia.html` hay una tabla de hitos con `caption`, `thead`, `tbody`, `tfoot`, `colgroup`, cabeceras con `scope` y celdas combinadas con `rowspan` y `colspan`. En `contacto.html` he creado un formulario con `post`, tres `fieldset` con `legend`, controles con `name`, `id` y su `label`, y los ocho tipos de control pedidos. Por último he enlazado la página de contacto desde la portada, la he añadido al mapa del sitio y he validado las páginas con el validador del W3C, haciendo commits por cada parte.
+
+
+## 📌 Tarea 6-7 · HTML5 semántico y CSS
+
+### Estructura semántica
+
+Las cinco páginas (`index.html`, `coches.html`, `historia.html`, `porsche-911.html` y `contacto.html`) usan `header` con el nombre de la web y un `nav` con los cinco enlaces, un único `main`, varias `section`, `article` para el contenido que se entiende solo (cada coche, cada etapa de la historia), `aside` para contenido secundario y `footer` con la firma `<p id="firma-francisco-390">`. He quitado todos los `div` de maquetación y los `style` en línea, y he cambiado `b` e `i` por `strong` y `em`.
+
+### Formulario HTML5 (`contacto.html`)
+
+Controles `email`, `tel`, `url`, `number`, `date`, `color` y `range`, además de `text`, `radio`, `checkbox`, `select` y `textarea`. Uso `placeholder`, `required`, `min`/`max`/`step` y dos `pattern` con su `title` (teléfono de 9 dígitos y matrícula española). Cada campo tiene su `label for`. En la columna lateral hay un `meter` con la potencia del Porsche 911 (385 de 500 CV).
+
+### Multimedia e interactivos (`index.html`)
+
+Un `video` con `controls`, `poster` y dos `source` (mp4 y webm) en `media/`, dos `figure` con `figcaption` en la portada y cuatro más en el catálogo, y una sección de preguntas frecuentes con tres `details`/`summary` (el primero con `open`) donde escribo etiquetas con las entidades `&lt;` y `&gt;`.
+
+### Hoja de estilos
+
+`css/estilos.css` está enlazada en las cinco páginas con `<link rel="stylesheet" href="css/estilos.css">`. Tiene tres bloques: base (tipografía y colores), maquetación (cabecera, navegación, secciones y artículos) y tablas, formulario e interactivos.
+
+### Errores del validador W3C
+
+| Página | Errores que dio el validador | Cómo los corregí |
+|---|---|---|
+| `index.html` | Nada | Nada |
+| `coches.html` | Nada | Nada |
+| `historia.html` | Nada | Nada |
+| `porsche-911.html` | Nada | Nada |
+| `contacto.html` | Nada | Nada |
+| `css/estilos.css` | Nada | Nada |
+
+Las capturas de la validación están en la carpeta `capturas/`.
+
+### Qué he hecho en esta tarea
+
+He convertido mi web de coches a HTML5 semántico en las cinco páginas, con navegación entre ellas y una firma con mi usuario. He mejorado el formulario con controles HTML5 y validación del navegador, y he añadido un vídeo, imágenes con pie de foto y preguntas frecuentes desplegables. Por último he creado la hoja de estilos externa y la he enlazado en todas las páginas. He ido subiendo cada parte con commits convencionales y un push al terminar cada reto.

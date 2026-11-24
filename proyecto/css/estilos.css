@@ -4,6 +4,7 @@
            texto #1b1b1b, fondo #f4f4f6 */
 
 /* === General: caja, tipografía y colores === */
+
 * {
     box-sizing: border-box;
 }
@@ -39,7 +40,7 @@ h3 {
 }
 
 /* Adyacente: el párrafo justo después de un h2 (entradilla) */
-h2 + p {
+h2+p {
     font-style: italic;
 }
 
@@ -70,7 +71,7 @@ footer {
 }
 
 /* Hijo directo: solo los p que cuelgan justo del footer */
-footer > p {
+footer>p {
     margin: 0.25rem 0;
 }
 
@@ -195,59 +196,59 @@ pre {
 
 /* === Tablas, formulario y elementos interactivos === */
 table {
-  width: 100%;
-  border-collapse: collapse;
-  background-color: #ffffff;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
 }
 
 caption {
-  padding: 0.5rem;
-  font-weight: bold;
-  text-align: left;
+    padding: 0.5rem;
+    font-weight: bold;
+    text-align: left;
 }
 
 th,
 td {
-  border: 1px solid #b5bcc8;
-  padding: 0.5rem 0.75rem;
-  text-align: left;
+    border: 1px solid #b5bcc8;
+    padding: 0.5rem 0.75rem;
+    text-align: left;
 }
 
 thead th {
-  background-color: #0b2a4a;
-  color: #ffffff;
+    background-color: #0b2a4a;
+    color: #ffffff;
 }
 
 tbody th {
-  background-color: #e7edf5;
+    background-color: #e7edf5;
 }
 
 tfoot th,
 tfoot td {
-  background-color: #f0f0f0;
-  font-style: italic;
+    background-color: #f0f0f0;
+    font-style: italic;
 }
 
 .columnas-datos {
-  background-color: #f7f7f7;
+    background-color: #f7f7f7;
 }
 
 fieldset {
-  margin: 1rem 0;
-  padding: 1rem;
-  border: 1px solid #b5bcc8;
-  border-radius: 8px;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #b5bcc8;
+    border-radius: 8px;
 }
 
 legend {
-  padding: 0 0.5rem;
-  font-weight: bold;
-  color: #0b2a4a;
+    padding: 0 0.5rem;
+    font-weight: bold;
+    color: #0b2a4a;
 }
 
 label {
-  margin-right: 0.5rem;
-  font-weight: 600;
+    margin-right: 0.5rem;
+    font-weight: 600;
 }
 
 input[type="text"],
@@ -258,63 +259,63 @@ input[type="number"],
 input[type="date"],
 select,
 textarea {
-  max-width: 100%;
-  padding: 0.4rem 0.6rem;
-  border: 1px solid #8a93a3;
-  border-radius: 4px;
-  font: inherit;
+    max-width: 100%;
+    padding: 0.4rem 0.6rem;
+    border: 1px solid #8a93a3;
+    border-radius: 4px;
+    font: inherit;
 }
 
 input:focus,
 select:focus,
 textarea:focus {
-  outline: 3px solid #f4b400;
+    outline: 3px solid #f4b400;
 }
 
 input:required:invalid:not(:placeholder-shown) {
-  border-color: #c1121f;
+    border-color: #c1121f;
 }
 
 input[type="submit"],
 input[type="reset"] {
-  padding: 0.5rem 1.2rem;
-  border: none;
-  border-radius: 4px;
-  font: inherit;
-  color: #ffffff;
-  background-color: #0b2a4a;
-  cursor: pointer;
+    padding: 0.5rem 1.2rem;
+    border: none;
+    border-radius: 4px;
+    font: inherit;
+    color: #ffffff;
+    background-color: #0b2a4a;
+    cursor: pointer;
 }
 
 input[type="reset"] {
-  background-color: #6b7280;
+    background-color: #6b7280;
 }
 
 input[type="submit"]:hover,
 input[type="reset"]:hover {
-  background-color: #c1121f;
+    background-color: #c1121f;
 }
 
 details {
-  margin: 0.75rem 0;
-  padding: 0.5rem 1rem;
-  border: 1px solid #b5bcc8;
-  border-radius: 6px;
-  background-color: #ffffff;
+    margin: 0.75rem 0;
+    padding: 0.5rem 1rem;
+    border: 1px solid #b5bcc8;
+    border-radius: 6px;
+    background-color: #ffffff;
 }
 
 summary {
-  font-weight: 600;
-  color: #0b2a4a;
-  cursor: pointer;
+    font-weight: 600;
+    color: #0b2a4a;
+    cursor: pointer;
 }
 
 meter {
-  width: 12rem;
-  vertical-align: middle;
+    width: 12rem;
+    vertical-align: middle;
 }
 
 video {
-  display: block;
-  border-radius: 6px;
+    display: block;
+    border-radius: 6px;
 }
