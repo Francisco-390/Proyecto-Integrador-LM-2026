@@ -60,3 +60,108 @@ footer {
 footer p {
     margin: 0.25rem 0;
 }
+
+/* 2. Maquetación: cabecera, navegación, secciones y artículos */
+header {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.logo {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+}
+
+nav a:hover,
+nav a[aria-current="page"] {
+    background-color: #c1121f;
+    color: #ffffff;
+}
+
+main {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+}
+
+section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+
+article {
+    border-left: 4px solid #c1121f;
+    background-color: #fafafa;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+}
+
+aside {
+    width: 92%;
+    max-width: 60rem;
+    margin: 1.5rem auto;
+    padding: 1rem 2rem;
+    background-color: #e7edf5;
+    border-radius: 8px;
+}
+
+figure {
+    margin: 1rem 0;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #555555;
+}
+
+blockquote {
+    margin: 1rem 0;
+    padding: 0.5rem 1.5rem;
+    border-left: 4px solid #0b2a4a;
+    background-color: #eef1f6;
+}
+
+pre {
+    background-color: #1b1b1b;
+    color: #e8e8e8;
+    padding: 1rem;
+    border-radius: 6px;
+    overflow-x: auto;
+}
+
+@media (max-width: 40rem) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    main {
+        padding: 1rem;
+    }
+}
