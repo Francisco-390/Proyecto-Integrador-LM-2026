@@ -57,7 +57,8 @@
                     </p>
                     <p>
                         <label for="tel">Teléfono</label>
-                        <input type="tel" id="tel" name="tel" maxlength="15">
+                        <input type="tel" id="tel" name="tel" placeholder="600123456" pattern="[6-9][0-9]{8}"
+                            title="9 dígitos que empiecen por 6, 7, 8 o 9, sin espacios" maxlength="9">
                     </p>
                 </fieldset>
 
@@ -96,9 +97,37 @@
                     </p>
                 </fieldset>
 
-                <!-- Bloque 3: intereses -->
+                <!-- Bloque 3: el coche que sugieres -->
                 <fieldset>
-                    <legend>Qué te interesa de los coches</legend>
+                    <legend>Sobre el coche que sugieres</legend>
+                    <p>
+                        <label for="enlace">Enlace a una foto o noticia</label>
+                        <input type="url" id="enlace" name="enlace" placeholder="https://ejemplo.com/mi-coche">
+                    </p>
+                    <p>
+                        <label for="anio">Año de fabricación</label>
+                        <input type="number" id="anio" name="anio" placeholder="1987" min="1900" max="2026" step="1">
+                    </p>
+                    <p>
+                        <label for="matricula">Matrícula (si la conoces)</label>
+                        <input type="text" id="matricula" name="matricula" placeholder="1234BCD" maxlength="7"
+                            pattern="[0-9]{4}[BCDFGHJKLMNPRSTVWXYZ]{3}"
+                            title="4 números y 3 consonantes en mayúsculas, por ejemplo 1234BCD">
+                    </p>
+                    <p>
+                        <label for="color">Color del coche</label>
+                        <input type="color" id="color" name="color" value="#0b2a4a">
+                    </p>
+                    <p>
+                        <label for="fecha">Día en que lo viste</label>
+                        <input type="date" id="fecha" name="fecha" min="1980-01-01" max="2026-12-31">
+                    </p>
+                </fieldset>
+
+                <!-- Bloque 4: intereses y opinión -->
+                <fieldset>
+                    <legend>Tus intereses y tu opinión</legend>
+                    <p>¿Qué te interesa de los coches?</p>
                     <p>
                         <input type="checkbox" id="int-historia" name="interes" value="historia">
                         <label for="int-historia">Su historia</label>
@@ -115,6 +144,10 @@
                         <input type="checkbox" id="int-fotos" name="interes" value="fotos">
                         <label for="int-fotos">Sus fotos</label>
                     </p>
+                    <p>
+                        <label for="valoracion">Valora esta web del 1 al 10</label>
+                        <input type="range" id="valoracion" name="valoracion" min="1" max="10" step="1" value="8">
+                    </p>
                 </fieldset>
 
                 <!-- Botones -->
@@ -126,6 +159,17 @@
         </section>
 
     </main>
+
+    <!-- Contenido secundario: medidor de potencia -->
+    <aside>
+        <h2>Mientras escribes</h2>
+        <p>
+            <label for="potencia-porsche">Potencia del Porsche 911 Carrera según mi catálogo (385 de 500 CV)</label>
+        </p>
+        <p>
+            <meter id="potencia-porsche" min="0" max="500" value="385">385 CV</meter>
+        </p>
+    </aside>
 
     <footer>
         <p id="firma-francisco-390">© 2026 francisco-390</p>
