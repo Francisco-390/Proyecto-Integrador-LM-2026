@@ -1,10 +1,15 @@
-/* estilos.css · Coches clásicos y deportivos · francisco-390 */
+/* estilos.css · Coches clásicos y deportivos
+   Autor: francisco-390
+   Paleta: principal #0b2a4a, acento #c1121f, secundario #e7edf5,
+           texto #1b1b1b, fondo #f4f4f6 */
 
-/* 1. Base: caja, tipografía y colores */
+/* === General: caja, tipografía y colores === */
 * {
     box-sizing: border-box;
 }
 
+/* Herencia: body fija fuente y color; los hijos los heredan
+   y h1, h2, h3 solo sobrescriben el color (siguen con la misma fuente) */
 body {
     margin: 0;
     font-family: "Segoe UI", Arial, sans-serif;
@@ -13,6 +18,7 @@ body {
     background-color: #f4f4f6;
 }
 
+/* Herencia */
 h1,
 h2,
 h3 {
@@ -32,6 +38,11 @@ h3 {
     font-size: 1.25rem;
 }
 
+/* Adyacente: el párrafo justo después de un h2 (entradilla) */
+h2 + p {
+    font-style: italic;
+}
+
 a {
     color: #0b4f8a;
 }
@@ -49,21 +60,30 @@ video {
 header,
 footer {
     background-color: #0b2a4a;
-    color: #ffffff;
+    color: white;
 }
 
+/* === Pie === */
 footer {
     padding: 1rem 2rem;
     text-align: center;
 }
 
-footer p {
+/* Hijo directo: solo los p que cuelgan justo del footer */
+footer > p {
     margin: 0.25rem 0;
 }
 
-/* 2. Maquetación: cabecera, navegación, secciones y artículos */
+/* Identificador: la firma única del pie */
+#firma-francisco-390 {
+    color: #f4b400;
+    font-weight: bold;
+}
+
+/* === Cabecera y navegación === */
 header {
     padding: 1rem 2rem;
+    min-height: 15vh;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -100,6 +120,7 @@ nav a[aria-current="page"] {
     color: #ffffff;
 }
 
+/* === Contenido: secciones, artículos y bloques === */
 main {
     max-width: 60rem;
     margin: 0 auto;
@@ -121,12 +142,18 @@ article {
     margin: 1rem 0;
 }
 
+/* Clase propia: para resaltar un artículo (class="destacado" en el HTML) */
+.destacado {
+    border-left: 6px solid #f4b400;
+    background-color: #e7edf5;
+}
+
 aside {
     width: 92%;
     max-width: 60rem;
     margin: 1.5rem auto;
     padding: 1rem 2rem;
-    background-color: #e7edf5;
+    background-color: rgb(231, 237, 245);
     border-radius: 8px;
 }
 
@@ -164,4 +191,130 @@ pre {
     main {
         padding: 1rem;
     }
+}
+
+/* === Tablas, formulario y elementos interactivos === */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+caption {
+  padding: 0.5rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+th,
+td {
+  border: 1px solid #b5bcc8;
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+}
+
+thead th {
+  background-color: #0b2a4a;
+  color: #ffffff;
+}
+
+tbody th {
+  background-color: #e7edf5;
+}
+
+tfoot th,
+tfoot td {
+  background-color: #f0f0f0;
+  font-style: italic;
+}
+
+.columnas-datos {
+  background-color: #f7f7f7;
+}
+
+fieldset {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #b5bcc8;
+  border-radius: 8px;
+}
+
+legend {
+  padding: 0 0.5rem;
+  font-weight: bold;
+  color: #0b2a4a;
+}
+
+label {
+  margin-right: 0.5rem;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+  max-width: 100%;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid #8a93a3;
+  border-radius: 4px;
+  font: inherit;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: 3px solid #f4b400;
+}
+
+input:required:invalid:not(:placeholder-shown) {
+  border-color: #c1121f;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 4px;
+  font: inherit;
+  color: #ffffff;
+  background-color: #0b2a4a;
+  cursor: pointer;
+}
+
+input[type="reset"] {
+  background-color: #6b7280;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #c1121f;
+}
+
+details {
+  margin: 0.75rem 0;
+  padding: 0.5rem 1rem;
+  border: 1px solid #b5bcc8;
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+
+summary {
+  font-weight: 600;
+  color: #0b2a4a;
+  cursor: pointer;
+}
+
+meter {
+  width: 12rem;
+  vertical-align: middle;
+}
+
+video {
+  display: block;
+  border-radius: 6px;
 }
