@@ -1,0 +1,62 @@
+/* estilos.css · Coches clásicos y deportivos · francisco-390 */
+
+/* 1. Base: caja, tipografía y colores */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    line-height: 1.6;
+    color: #1b1b1b;
+    background-color: #f4f4f6;
+}
+
+h1,
+h2,
+h3 {
+    color: #0b2a4a;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+a {
+    color: #0b4f8a;
+}
+
+a:hover {
+    color: #c1121f;
+}
+
+img,
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+header,
+footer {
+    background-color: #0b2a4a;
+    color: #ffffff;
+}
+
+footer {
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+footer p {
+    margin: 0.25rem 0;
+}
