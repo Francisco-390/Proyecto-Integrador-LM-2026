@@ -10,7 +10,7 @@
   <meta name="keywords" content="coches, clásicos, deportivos, Porsche, Ferrari, Jaguar, Lamborghini">
   <meta name="author" content="francisco-390">
 </head>
-<!-- francisco-390 | 23/11/2026 -->
+<!-- francisco-390 | 24/11/2026 -->
 
 <body>
   <header>
@@ -60,7 +60,10 @@
         <p>
           Su silueta casi no ha cambiado en décadas y por eso se reconoce al instante.
         </p>
-        <img src="img/porsche-911.jpg" alt="Porsche 911 Carrera de color azul marino" width="500">
+        <figure>
+          <img src="img/porsche-911.jpg" alt="Porsche 911 Carrera de color azul marino" width="500">
+          <figcaption>Mi Porsche 911 Carrera favorito, en azul marino.</figcaption>
+        </figure>
       </article>
 
       <article>
@@ -71,6 +74,19 @@
           por más de 100.000 &euro;&#33;
         </p>
       </article>
+    </section>
+
+    <!-- Vídeo -->
+    <section>
+      <h2>Un coche en movimiento</h2>
+      <figure>
+        <video controls poster="img/poster-coches.jpg" width="640">
+          <source src="media/coches-clasicos.mp4" type="video/mp4">
+          <source src="media/coches-clasicos.webm" type="video/webm">
+          <p>Tu navegador no puede reproducir este vídeo.</p>
+        </video>
+        <figcaption>Un deportivo en carretera, para ver cómo se mueve uno de estos coches.</figcaption>
+      </figure>
     </section>
 
     <!-- Opinión -->
@@ -98,6 +114,31 @@ Tipo ......... Deportivo
 Motor ........ Bóxer de 6 cilindros, trasero
 Debut 911 .... 1963
 </pre>
+    </section>
+
+    <!-- Preguntas frecuentes -->
+    <section>
+      <h2>Preguntas frecuentes</h2>
+      <details open>
+        <summary>¿Por qué el Porsche 911 se llama Carrera?</summary>
+        <p>
+          El nombre Carrera recuerda a la Carrera Panamericana, una competición en la que Porsche ganó
+          en su categoría a principios de los años 50.
+        </p>
+      </details>
+      <details>
+        <summary>¿Cuál es el coche más rápido de mi catálogo?</summary>
+        <p>
+          El Ferrari F40, con 324 km/h y 478 CV según mi catálogo.
+        </p>
+      </details>
+      <details>
+        <summary>¿Cómo está hecha esta web?</summary>
+        <p>
+          Solo con HTML y CSS. Por ejemplo, la lista de coches usa las etiquetas &lt;ul&gt; y &lt;li&gt;,
+          y cada coche del catálogo es un &lt;article&gt;.
+        </p>
+      </details>
     </section>
 
     <!-- Contacto -->

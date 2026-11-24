@@ -42,7 +42,7 @@ También le faltan elementos requeridos en esta unidad como el comentario <'!-- 
 
 ### UD3 · Qué he hecho en esta unidad
  
-En esta unidad he pasado de una página básica a un sitio de cuatro páginas con estructura HTML completa: DOCTYPE, `html lang="es"` y un `head` con codificación, título, descripción, palabras clave y autor. En el `body` he organizado el contenido en bloques `div` comentados, con una jerarquía de títulos sin saltos, separadores `hr`, citas con `blockquote`, fichas con `pre` y entidades como `&copy;` o `&euro;`. He ido haciendo un commit por cada mejora o página nueva para que el historial cuente el proceso. Todavía no hay enlaces entre páginas porque el menú se añadirá en la UD5.
+En esta unidad he pasado de una página básica a un sitio de cuatro páginas con estructura HTML completa: DOCTYPE, `html lang="es"` y un `head` con codificación, título, descripción, palabras clave y autor. En el `body` he organizado el contenido en bloques `div` comentados, con una jerarquía de títulos sin saltos, separadores `hr`, citas con `blockquote`, fichas con `pre` y entidades como `&copy;` o `&euro;`. He ido haciendo un commit por cada mejora o página nueva para que el historial cuente el proceso. Todavía no hay enlaces entre páginas porque el menú se añadirá en otro tema.
 
 ## 📌 UD5 · Tablas y formularios
 
@@ -61,8 +61,8 @@ En esta unidad he pasado de una página básica a un sitio de cuatro páginas co
  
 | Página | Errores que dio el validador | Cómo los corregí |
 |---|---|---|
-| `historia.html` (tabla) | Nada | - |
-| `contacto.html` | Nada | - |
+| `historia.html` (tabla) | Nada | Nada |
+| `contacto.html` | Nada | Nada |
  
 ### UD5 · Qué he hecho en esta unidad
  
